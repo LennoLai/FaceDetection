@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/xiaozhu/Desktop/FaceDetection/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/res/merged/debug/drawable_facedetection_info_background.xml.flat",
+        "source": "/Users/xiaozhu/Desktop/FaceDetection/app/src/main/res/drawable/facedetection_info_background.xml"
+    },
+    {
+        "merged": "/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/res/merged/debug/layout_activity_camera.xml.flat",
+        "source": "/Users/xiaozhu/Desktop/FaceDetection/app/src/main/res/layout/activity_camera.xml"
+    },
+    {
+        "merged": "/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/res/merged/debug/drawable_titlebar_background.xml.flat",
+        "source": "/Users/xiaozhu/Desktop/FaceDetection/app/src/main/res/drawable/titlebar_background.xml"
+    },
+    {
+        "merged": "/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_menu_56px.png.flat",
+        "source": "/Users/xiaozhu/Desktop/FaceDetection/app/src/main/res/drawable-xhdpi/icon_menu_56px.png"
+    },
+    {
+        "merged": "/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/res/merged/debug/layout_titlebar_layout.xml.flat",
+        "source": "/Users/xiaozhu/Desktop/FaceDetection/app/src/main/res/layout/titlebar_layout.xml"
+    },
+    {
+        "merged": "/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/res/merged/debug/drawable_titlebar_item.xml.flat",
+        "source": "/Users/xiaozhu/Desktop/FaceDetection/app/src/main/res/drawable/titlebar_item.xml"
+    },
+    {
+        "merged": "/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/res/merged/debug/drawable-xhdpi_login_background.jpg.flat",
+        "source": "/Users/xiaozhu/Desktop/FaceDetection/app/src/main/res/drawable-xhdpi/login_background.jpg"
+    },
+    {
+        "merged": "/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/res/merged/debug/layout_activity_facedetection.xml.flat",
+        "source": "/Users/xiaozhu/Desktop/FaceDetection/app/src/main/res/layout/activity_facedetection.xml"
+    },
+    {
+        "merged": "/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/res/merged/debug/drawable_theme_button.xml.flat",
+        "source": "/Users/xiaozhu/Desktop/FaceDetection/app/src/main/res/drawable/theme_button.xml"
+    },
+    {
+        "merged": "/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/xiaozhu/Desktop/FaceDetection/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_back4_56px.png.flat",
+        "source": "/Users/xiaozhu/Desktop/FaceDetection/app/src/main/res/drawable-xhdpi/icon_back4_56px.png"
+    }
+]

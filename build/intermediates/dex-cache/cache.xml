@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_7919cb165fb96f1574ca44d83e312aff46e10ed2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\libs\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\2\retrofit-2.1.0_a0f1fef6a0114f7c91a4da7fc45afae0a63ed0e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\libs\Facedetection.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="498979d61b36020dc3171af1b3c96efa20946f76">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\2\Facedetection_cc8b97ad5b0920267193837f2e3a0384a489f77e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\libs\rxandroid-1.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\2\rxandroid-1.2.1_351b7bbf8059d40ea7cb67e6767cd3c4ac24cbd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\libs\adapter-rxjava-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\2\adapter-rxjava-2.1.0_78dab30083a56e1c15884cb061e986d22b2034d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\libs\afinal_0.5.1_bin.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ae398c74701392473b9cb488c76a92576d6f548c">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\2\afinal_0.5.1_bin_a721d32fac432545ff544e1e002047b9ba4773a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d1687bb7a65a28c3346306c45c31217de2046462">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_93e6cf67ec842e659887c4f2c7452d0f91354eb6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_28116aaa2f9b727b4d520556c25d8fa1ff291f42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\libs\greendao-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9414c1d4578673dac83a23119009624fd695726d">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\2\greendao-2.1.0_d1d57cac251452d95dd90f9d7d21117df6819839\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_0b70cf58afce1fc6ee5209e312ff877802f19f44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\libs\fastjson-1.1.39.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4d002c8b49ff59d6272a8d0a0057d1548d3895ac">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\2\fastjson-1.1.39_301c2a7f351b60fe80e00a0a467eda5063bb774d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5d9cf28d0f820d08c0931d3167a2020cd279c66a">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f5e9ef32f4a2c4392c3c98732a0778b5a1ecc5c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b922d9db087fba063ac1d19acac280316f13e200">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_63cb59bb1a3b8429fde9bb406026a49437a19177\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\libs\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\2\okhttp-3.4.1_e6a89a887d8362310b0a1d4c5efcf106ed849343\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\libs\rxjava-1.1.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e4362e62f1ba92e360b197d6d7ffae67e5ecae9a">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\2\rxjava-1.1.9_cf9c8649cde50ac93ecfd72d5bb4fab100e1a54f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_a352e991673fa38425ae06e5ab1c84fcf94cd5cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\libs\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\YuJianxun\StudioProjects\Ticwr7_location3\app\build\intermediates\transforms\dex\debug\folders\1000\2\okio-1.9.0_ce29fef683d020b4e56dcf41d79f6382e3a5fcaf\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.thit.ticwr.facedetection.Layout16_9
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" >
+
+        <com.thit.ticwr.facedetection.CameraView
+            android:id="@+id/facedection_cameraview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.thit.ticwr.facedetection.FaceDetectionOverlayView
+            android:id="@+id/facedection_faceoverlayview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.thit.ticwr.facedetection.Layout16_9>
+
+    <com.thit.ticwr.facedetection.LayoutRotateable
+        android:id="@+id/facedection_layoutrotateable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:layout_width="match_parent" 
+            android:layout_height="match_parent" >
+
+            <include layout="@layout/titlebar_layout" />
+
+            <TextView
+                android:id="@+id/facedection_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="72dp"
+                android:background="@drawable/facedetection_info_background"
+                android:paddingBottom="6dp"
+                android:paddingLeft="12dp" 
+                android:paddingRight="12dp"
+                android:paddingTop="6dp" 
+                android:text="初始化"
+                android:textColor="#ffff"
+                android:textSize="18dp" />
+        </FrameLayout>
+    </com.thit.ticwr.facedetection.LayoutRotateable>
+
+</FrameLayout>

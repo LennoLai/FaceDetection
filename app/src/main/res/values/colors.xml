@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_theme">#ffc70019</color>
+    <color name="app_theme_pressed">#ffa70099</color>
+    <color name="app_divider">#33888888</color>
+    <color name="app_stroke">#44888888</color>
+    
+    <color name="app_aaa">#ff35aaff</color>
+    <color name="white">#ffffffff</color>
+    <color name="app_theme_gradient_start">#ff00dbef</color>
+    <color name="app_theme_gradient_end">#ff009de0</color>
+    <color name="app_theme_gradient_start_pressed">#ff00cbdf</color>
+    <color name="app_theme_gradient_end_pressed">#ff008dd0</color>
+    
+    
+    <color name="transparent">#00000000</color>
+    
+    <color name="mxx_awesome_dark_color">#ff2f3136</color>
+    
+    <color name="windowBackground">#ffffffff</color>
+    
+    <color name="dialogBackground">#ffffffff</color>
+    
+     <color name="textColorPrimary">#ff000000</color>
+    <color name="textColorSecondary">#ff666666</color>
+    
+    <color name="colorPrimary">#ff03a9f4</color>
+    <color name="colorPrimaryTransparent">#9903a9f4</color>
+    <color name="colorWindowDim">#55000000</color>
+    
+    <color name="colorDivider">#22777777</color>
+    <color name="colorPressed">#2d777777</color>
+    <color name="colorStroke">#ffcccccc</color>
+    
+    <color name="colorScrollbarThumb">#bb03a9f4</color>
+    
+    <color name="colorPrimaryDark">#ff0288d1</color>
+    <color name="colorAccent">#ff009688</color>
+</resources>

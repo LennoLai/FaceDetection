@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">中车实名考勤</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="empty_nodata">没有数据</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_project">中车实名考勤-选择项目</string>
+    <string name="title_activity_facedetection">考勤模式</string>
+    <string name="title_activity_query">中车实名考勤-查询模式</string>
+    <string name="title_activity_debug">选项</string>
+    <string name="title_activity_about">关于</string>
+    <string name="title_activity_update">更新版本</string>
+
+</resources>

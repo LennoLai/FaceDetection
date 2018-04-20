@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/titlebar_layout"
+    android:background="@drawable/titlebar_background"
+    android:layout_height="56dp">
+
+    <TextView
+        android:id="@+id/titlebar_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:text="@string/app_name" />
+
+    <ImageButton
+        android:id="@+id/titlebar_back"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:scaleType="center"
+        android:visibility="gone"
+        android:background="@drawable/titlebar_item"
+        android:src="@drawable/icon_back4_56px" />
+    
+    <ImageButton
+        android:id="@+id/titlebar_menu"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="right"
+        android:scaleType="center"
+        android:visibility="gone"
+        android:background="@drawable/titlebar_item"
+        android:src="@drawable/icon_menu_56px" />
+
+</FrameLayout>

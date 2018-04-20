@@ -1,0 +1,154 @@
+-dontpreverify
+#-repackageclasses ''
+-allowaccessmodification
+-optimizations !code/simplification/arithmetic
+-keepattributes *Annotation*
+
+-dontusemixedcaseclassnames
+#-dontskipnonpubliclibraryclasses
+-verbose
+-ignorewarnings
+
+#-libraryjars /libs/android-support-v4.jar
+-dontwarn android.support.v4.**
+-keep class android.support.v4.** { *; }
+-keep public class * extends android.support.v4.**
+-keep public class * extends android.app.Fragment
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+
+-keep public class * extends android.accessibilityservice.AccessibilityService
+
+-keep public class * extends android.view.View {
+    public <init>(android.content.Context);
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+    public void set*(...);
+}
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+-keepclassmembers class * implements android.os.Parcelable {
+    static android.os.Parcelable$Creator CREATOR;
+}
+-keepclassmembers class **.R$* {
+    public static <fields>;
+ } 
+
+# GreenDao start
+#-libraryjars libs/greendao-2.1.0.jar
+-keep class de.greenrobot.dao.** {*;}
+#保持greenDao的方法不被混淆
+-keepclassmembers class * extends de.greenrobot.dao.AbstractDao {
+	 public static java.lang.String TABLENAME; 
+} 
+#用来保持生成的表名不被混淆    
+-keep class **$Properties
+-keep class com.thit.ticwr.dao.** {*;}
+# GreenDao end
+
+#Keep libs
+-keep class com.baidu.** {*;}
+-keep class com.alibaba.** {*;}
+-keep class com.google.** {*;}
+-keep class com.squareup.** {*;}
+-keep class de.greenrobot.** {*;}
+-keep class okhttp3.** {*;}
+-keep class okio.** {*;}
+-keep class retrofit2.** {*;}
+-keep class rx.** {*;}
+-keep class net.tsz.afinal.** {*;}
+#keep libs end
+
+##---------------Begin: proguard configuration for Gson  ----------
+# Gson uses generic type information stored in a class file when working with fields. Proguard
+# removes such information by default, so configure it to keep all of it.
+-keepattributes Signature
+
+# For using GSON @Expose annotation
+-keepattributes *Annotation*
+
+# Gson specific classes
+-keep class sun.misc.Unsafe { *; }
+#-keep class com.google.gson.stream.** { *; }
+
+# Application classes that will be serialized/deserialized over Gson
+-keep class com.google.gson.examples.android.model.** { *; }
+##---------------End: proguard configuration for Gson  ----------
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+ 
+#keep R
+-keep public class com.thit.ticwr.BuildConfig{
+	*;
+}
+
+#keep R
+-keep public class com.thit.ticwr.R$*{
+	public static final int *;
+}
+
+#delete log
+-assumenosideeffects
+class android.util.Log
+ {
+    public static ***
+ e(...);
+    public static ***
+ w(...);
+    public static ***
+ wtf(...);
+    public static ***
+ d(...);
+    public static ***
+ v(...);
+ 
+}
+
+-keep class android.support.v4.app.NotificationCompat**{
+    public *;
+}
+
+
+
+-dontwarn javax.annotation.**
+-dontwarn javax.inject.**
+# OkHttp3
+-dontwarn okhttp3.logging.**
+-keep class okhttp3.internal.**{*;}
+-dontwarn okio.**
+# Retrofit
+-dontwarn retrofit2.**
+-keep class retrofit2.** { *; }
+-keepattributes Signature
+-keepattributes Exceptions
+# RxJava RxAndroid
+-dontwarn sun.misc.**
+-keepclassmembers class rx.internal.util.unsafe.*ArrayQueue*Field* {
+    long producerIndex;
+    long consumerIndex;
+}
+-keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueProducerNodeRef {
+    rx.internal.util.atomic.LinkedQueueNode producerNode;
+}
+-keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueConsumerNodeRef {
+    rx.internal.util.atomic.LinkedQueueNode consumerNode;
+}
+
+# Gson
+-keep class com.google.gson.stream.** { *; }
+-keepattributes EnclosingMethod
+# Gson实体类
+-keep class com.thit.ticwr.bean.**{*;}
+
+-keep class com.thit.ticwr.data.ApiService{*;}

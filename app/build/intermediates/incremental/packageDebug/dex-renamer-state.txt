@@ -1,0 +1,7 @@
+#Thu Apr 19 20:30:37 CST 2018
+base.0=C\:\\Users\\YuJianxun\\StudioProjects\\Ticwr7_location3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_63cb59bb1a3b8429fde9bb406026a49437a19177
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\YuJianxun\\StudioProjects\\Ticwr7_location3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f5e9ef32f4a2c4392c3c98732a0778b5a1ecc5c2\\classes.dex
+base.1=C\:\\Users\\YuJianxun\\StudioProjects\\Ticwr7_location3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f5e9ef32f4a2c4392c3c98732a0778b5a1ecc5c2
+file.0=C\:\\Users\\YuJianxun\\StudioProjects\\Ticwr7_location3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_63cb59bb1a3b8429fde9bb406026a49437a19177\\classes.dex
