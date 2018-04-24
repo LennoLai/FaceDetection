@@ -34,7 +34,7 @@ public class FaceDetectionActivity extends BaseActivity implements FaceDetection
 	public static final int LOCATION_SCAN_SPAN = 20 * 1000;
 	/**摄像头ID，取前摄像头**/
 	public static final int CAMERA_ID = Camera.CameraInfo.CAMERA_FACING_FRONT;
-	/** Face.socre可信的最小值 **/
+	/** Face.score可信的最小值 **/
 	public static int DECTECTION_MIN_SCORE = 60;// Integer.MIN_VALUE;
 
 	/** 实际上传人脸的图像大小要比检测到的人脸rect扩大一定的倍数 **/

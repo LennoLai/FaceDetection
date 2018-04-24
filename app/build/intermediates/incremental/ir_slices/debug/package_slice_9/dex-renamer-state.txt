@@ -1,4 +1,4 @@
-#Fri Apr 20 17:44:48 CST 2018
+#Tue Apr 24 20:51:26 CST 2018
 base.0=/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/transforms/dexMerger/debug/9
 path.0=classes.dex
 renamed.0=classes.dex

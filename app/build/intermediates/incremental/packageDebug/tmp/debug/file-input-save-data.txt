@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Apr 20 17:47:49 CST 2018
+#Tue Apr 24 20:51:27 CST 2018
 2.base=/Users/xiaozhu/Desktop/FaceDetection/app/build/intermediates/transforms/mergeJniLibs/debug/0
 5.set=DEX
 0.path=classes.dex
